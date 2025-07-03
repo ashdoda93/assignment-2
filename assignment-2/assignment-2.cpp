@@ -12,9 +12,9 @@ int main() {
 	what_is_in_the_stack(stack);
 	//removes an element from the stack
 	if (!stack.empty()) {
-		cout << "Removing the last element from the stack("<< stack.back()<<")\n";
+		cout << "Removing the last integer from the stack("<< stack.back()<<")\n";
 		stack.pop_back(); // Remove the last element
-		cout << "The last element has been removed from the stack.\n";
+		cout << "The last integer has been removed from the stack.\n";
 		//confirms what integers are left in the stack
 		what_is_in_the_stack(stack);
 	}
@@ -26,7 +26,7 @@ int main() {
 		cout << "The top of the stack is: " << stack.back() << "\n";
 	}
 	else {
-		cout << "The stack is empty, no top element.\n";
+		cout << "The stack is empty, no top integer.\n";
 	}
 	//Finds the average value of the stack elements
 	find_average(stack);

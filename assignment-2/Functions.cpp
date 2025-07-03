@@ -51,6 +51,6 @@ void add_to_stack(vector<int>& stack) {
 			sum += value;
 		}
 		double average = sum / stack.size();
-		cout << "The average of the stack elements is: " << average << "\n";
+		cout << "The average of the stack integers is: " << average << "\n";
 	}
 
