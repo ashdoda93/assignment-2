@@ -1,4 +1,4 @@
-User will run local windows debugger
+User will run local windows debugger.
 User will be prompted to enter integers to add to the stack in console
 ![image](https://github.com/user-attachments/assets/552767b4-be9b-4e23-9e83-43a27e24ed92)
 User will enter integers into console. Each integer should be have a space after. 
